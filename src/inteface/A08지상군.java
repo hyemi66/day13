@@ -1,0 +1,15 @@
+package inteface;
+
+public class A08지상군 implements Unit08 {
+
+	@Override
+	public void attack() {
+		System.out.println("지상군이 공격");
+	}
+
+	@Override
+	public void defense() {
+		System.out.println("지상군이 방어");
+	}
+	
+}
